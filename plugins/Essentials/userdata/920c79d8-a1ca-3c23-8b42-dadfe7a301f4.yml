@@ -1,0 +1,25 @@
+lastlocation:
+  world: world
+  x: 232.60282759907506
+  y: 79.23981944016288
+  z: 22.832151566090566
+  yaw: -217.48645
+  pitch: 30.102173
+timestamps:
+  logout: 1617893971744
+  login: 1617893288276
+  lastteleport: 1617878705442
+lastAccountName: lol
+ipAddress: 192.168.1.65
+powertools:
+  gold_axe:
+  - //sphere 0 200
+  fishing_rod:
+  - //sphere 0 50
+logoutlocation:
+  world: world
+  x: 233.89202740502003
+  y: 77.0
+  z: 38.721784478580645
+  yaw: 186.9806
+  pitch: 26.988842

@@ -1,0 +1,94 @@
+notifications:
+  # Do you want to enable notifications?
+  enabled: true
+
+  # Placeholders: %player% %ping%
+  # %check% gets replaced dynamically by the check.
+  message: "&3AntiCrash &8» &3&l%player% &f| &b%check% &f| &c%ping%ms"
+
+# Prevents exploits with custompayload packets.
+custompayload:
+  # Do you want to enable this module?
+  enabled: true
+
+  # Placeholders: %player%
+  punish_commands:
+    - ""
+
+# Checks if players have a invalid UUID.
+uuidspoof:
+  # Do you want to enable this module?
+  enabled: true
+
+  # Placeholders: %player%
+  punish_commands:
+    - ""
+
+# Checks if players try to crash/exploit the server with commands.
+commands:
+  # Do you want to enable this module?
+  enabled: true
+
+  # Commands to detect.
+  commands:
+    - "//calc"
+    - "//calculate"
+    - "//eval"
+    - "//evaluate"
+    - "//solve"
+    - "/worldedit:/calc"
+    - "/worldedit:/calculate"
+    - "/worldedit:/eval"
+    - "/worldedit:/evaluate"
+    - "/worldedit:/solve"
+    - "/hd readtext"
+    - "/holographicdisplays readtext"
+    - "/holographicdisplays:hd readtext"
+    - "/holographicdisplays:holographicdisplays readtext"
+    - "/pex promote"
+
+  # Placeholders: %player%
+  punish_commands:
+    - ""
+
+# Prevents exploits with interact packets.
+interact:
+  # Do you want to enable this module?
+  enabled: true
+
+  # Max interactions allowed per second.
+  limit: 80
+
+# Prevents exploits with interact packets.
+position:
+  # Do you want to enable this module?
+  enabled: true
+
+  # Max position packets allowed per second.
+  limit: 250
+
+# Prevents exploits with windowclick packets.
+windowclick:
+  # Do you want to enable this module?
+  enabled: true
+
+  # Max windowclick packets allowed per second.
+  limit: 80
+
+# Prevents exploits with signs.
+signs:
+  # Do you want to enable this module?
+  enabled: true
+
+  # Placeholders: %player%
+  punish_commands:
+    - ""
+
+# Prevents exploits with items.
+items:
+  # Do you want to enable this module?
+  enabled: true
+
+  # Placeholders: %player%
+  punish_commands:
+    - ""

@@ -1,0 +1,49 @@
+# You can create as many locales as you want,
+# The language will change depending on the player locale.
+
+# English
+en:
+  commands:
+    reload: "&3AntiCrash &8» &aAntiCrash reloaded."
+    help: |-
+      &3AntiCrash commands:
+      &3/%command% help &8» &bShows this message.
+      &3/%command% reload &8» &bReloads the plugin.
+      &3/%command% notifications &8» &bToggles player crash attempt notifications.
+      &3/%command% stats &8» &bSee the stats of the plugin.
+    error:
+      unknown: "&3AntiCrash &8» &cYeah, I don't know that command. Use &l/ac help&c to see the commands I do know."
+      permission: "&3AntiCrash &8» &cWhat are you trying to do? You don't have permission to use that command."
+      console: "&3AntiCrash &8» &cThat command can't be used in the console."
+    notifications:
+      enable: "&3AntiCrash &8» &aYou have enabled notifications."
+      disable: "&3AntiCrash &8» &cYou have disabled notifications - not the best idea, but OK."
+  modules:
+    addresslimiter:
+      kick_message_public: "&cUse one of this IPs to join!\n%list%\n\n&7Discord: &b&ndiscord.gg/??????&r"
+      kick_message_private: "&cYou are temporally blocked from this server!\n\n&7Reason: &fYou entered a invalid IP or Hostname.\n&7Discord: &b&ndiscord.gg/??????&r"
+    custompayload:
+      kick_message: "&cYou are temporally blocked from this server!\n\n&7Reason: &fToo many CustomPayload packets detected.\n&7Discord: &b&ndiscord.gg/??????&r"
+    uuidspoof:
+      kick_message: "&cYou are temporally blocked from this server!\n\n&7Reason: &fUUID Spoofing detected.\n&7Discord: &b&ndiscord.gg/??????&r"
+    commands:
+      kick_message: "&cYou are temporally blocked from this server!\n\n&7Reason: &fCommand exploit detected.\n&7Discord: &b&ndiscord.gg/??????&r"
+    signs:
+      kick_message: "&cYou are temporally blocked from this server!\n\n&7Reason: &fSign exploit detected.\n&7Discord: &b&ndiscord.gg/??????&r"
+    items:
+      kick_message: "&cYou are temporally blocked from this server!\n\n&7Reason: &fItem exploit detected.\n&7Discord: &b&ndiscord.gg/??????&r"
+    stats:
+      message: |-
+        &3AntiCrash statistics:
+        &3Cached UUIDs: &b%cached_uuids%
+        &3Exploits Blocked: &b%exploits_blocked%
+
+# German
+de:
+
+# Spanish
+es:
+
+# Portuguese
+pt:
+
